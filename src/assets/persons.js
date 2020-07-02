@@ -2,6 +2,24 @@ import { v4 as uuidv4 } from "uuid"
 
 export const data = {
   people: [
+    
+    {
+      id: uuidv4(),
+      name: "Luke Cuttell",
+      img: "https://avatars0.githubusercontent.com/u/62564261?s=400&v=4",
+      links: {
+        website: "https://www.behance.net/lukecuttell",
+        linkedin: "https://www.linkedin.com/in/lukecuttelldesign/",
+        github: "https://github.com/lukecuttell",
+      },
+      jobTitle: "Web Designer",
+      location: {
+        city: "Derby",
+        state: "Derbyshire",
+        country: "UK",
+      },
+    },
+
     {
       id: uuidv4(),
       name: "Adi Gutner",
